@@ -14,8 +14,8 @@ export default function Navbar() {
         <div
           className={
             toggle
-              ? `sm:h-[60%] fixed w-full bg-black/50 text-white flex justify-between items-center mx-0 my-auto h-[80px] top-0 left-0 z-[1000]`
-              : "fixed w-full   bg-black/50 text-white flex justify-between items-center mx-0 my-auto h-[80px] top-0 left-0 z-[1000]"
+              ? `sm:h-[60%] fixed w-full sm:bg-black  bg-black/50 text-white flex justify-between items-center mx-0 my-auto h-[80px] top-0 left-0 z-[1000]`
+              : "fixed w-full sm:bg-black  bg-black/50 text-white flex justify-between items-center mx-0 my-auto h-[80px] top-0 left-0 z-[1000]"
           }
         >
           <Link href="/">
